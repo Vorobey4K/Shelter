@@ -1,0 +1,362 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+a{text-decoration: none;}
+
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+.wrapper{
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+._container{
+    max-width: 1200px;
+    margin:0px auto;
+}
+
+/**************************HEDEAR*************************************************************************/
+.header{
+    min-width: 100%;
+    height: 120px;
+    background: #F6F6F6;
+    
+}
+.header__container{
+   height: 120px;
+   
+   
+   
+}
+.header_main{
+    display: flex;
+    height: 60px;
+    margin-top:30px;
+
+    justify-content: space-between;
+}
+.logo{
+    width: 184px;
+    height: 60px;
+}
+.logo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 400px;
+    color:#545454;
+    letter-spacing: 6%;
+    letter-spacing: 0.05em;
+    font-style: normal;
+   
+}
+.logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size:13px;
+    color:#292929;
+    padding-top: 10px;
+    padding-left: 4px;
+    letter-spacing: 0.1em;
+}
+
+
+.nav ul{
+    margin-top: 16px;
+    display: flex;
+    width: 443px;
+    height: 27px;
+    justify-content: space-around;
+}
+.nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    Font-size: 15px;
+    Line-height: 24px;
+}
+.nav ul li a{
+    color:#545454
+}
+.our_friend{
+    color:#292929;
+    border-bottom:3px solid #F1CDB3;
+}
+
+/*--------------------------------MAIN---------------------------------------------------------------*/
+
+
+.main{
+    min-width: 100%;
+    height: 1342px;
+    background: #F6F6F6;
+}
+.main__container{
+    height: 1342px;
+
+}
+.main_infa{
+    position: relative;
+    top: 80px;
+    bottom: 100px;
+    height: 1162px;
+    
+
+}
+.house_animal{
+    margin: auto;
+    
+    width: 400px;
+    height: 90px;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    color:#545454;
+    text-align: center;
+}
+.list_animals{
+    position: relative;
+    height: 930px;
+    top: 45px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+}
+.button a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+.button:hover{
+    background: #F1CDB3;
+}
+
+
+
+.Katrine{
+    position: absolute;
+    height: 435px;
+    width: 270px;
+    left: 0px;
+    top:15px
+}
+
+.Jennifer{
+    position: absolute;
+   left: 310px;
+    height: 435px;
+    width: 270px;
+    top:15px;
+
+}
+.Woody{
+    position: absolute;
+    height: 435px;
+    width: 270px;
+    top:15px;
+    right: 310px;
+}
+.Sophia{
+    position: absolute;
+    height: 435px;
+    width: 270px;
+    right: 0;
+    top:15px
+}
+.Timmy{
+    position: absolute;
+    height: 435px;
+    width: 270px;
+    left: 0;
+    bottom: 15px;
+}
+.Charly{
+    position: absolute;
+    height: 435px;
+    width: 270px;
+    left: 310px;
+    bottom: 15px;
+}
+.Scarlett{
+    position: absolute;
+    height: 435px;
+    width: 270px;
+    right: 310px;
+    bottom: 15px;  
+}
+.Freddie{
+     position: absolute;
+    height: 435px;
+    width: 270px;
+    right: 0;
+    bottom: 15px; 
+}
+.photo1{
+    width: 270px;
+    height: 270px;
+    background: url(../assets/images/pets_katrine.png);
+}
+.photo2{
+    width: 270px;
+    height: 270px;
+    background: url(../assets/images/pets_jennifer.png);
+}
+.photo3{
+    width: 270px;
+    height: 270px;
+    background: url(../assets/images/pets_woody.png);
+}
+.photo4{
+    width:270px;
+    height: 270px;
+    background: url(../assets/images/pets_katrine1.png);
+}
+.photo5{
+    width:270px;
+    height: 270px;
+    background: url(../assets/images/pets_timmy.png)
+}
+.photo6{
+    width:270px;
+    height: 270px;
+    background: url(../assets/images/pets_charly.png)
+}
+.photo7{
+    width:270px;
+    height: 270px;
+    background: url(../assets/images/pets_scarlet.png)
+}
+.photo8{
+    width:270px;
+    height: 270px;
+    background: url(../assets/images/pets_katrine123.png)
+}
+.list_animals h2{
+    text-align: center;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    color:#545454;
+}
+.switches{
+position: absolute;
+margin-left: 430px;
+bottom: 0;
+
+width: 340px;
+height: 52px;
+}
+.switches_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*-------------------------------------------------FOTTER-----------------------------------------------------------*/
+.footer{
+    height: 350px;
+    min-width: 100%;
+    background: url(../assets/images/background.png);
+    background-size: cover;
+}
+.footer__container{
+    height: 350px;
+
+}
+.footer_block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 1200px;
+    height: 310px;
+    
+}
+.questions{
+    margin-top: 56px;
+    width: 278px;
+    height: 234px;
+
+}
+.questions_h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing:  0.05em;
+    color:#FFFFFF;
+}
+.andres{
+    margin-top: 56px;
+    width: 302px;
+    height: 234px;
+}
+.andres_h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing:  0.05em;
+    color:#FFFFFF;
+}
+.email,.marker1,.marker2,.phone{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+.email,.phone{
+    margin-top:40px;
+}
+.marker1{
+    margin-top: 34px;
+    display: flex;
+    align-items: flex-start;
+}
+.marker2{
+    margin-top: 32px;
+   
+    
+}
+.footer_block a{
+    color: #F1CDB3;
+    margin-left: 20px;
+}
